@@ -1,0 +1,42 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+.hometitle {
+	text-align: center;
+	color: white;
+	font-family: 'IM Fell English SC', serif;
+	font-size: 75px;
+}
+
+.picbutton {
+	text-align: center;
+	margin-top: 350px;
+}
+
+.indexhead {
+	font-size: 75px;
+	text-align: center;
+	margin-bottom: 20px;
+	font-family: 'IM Fell English SC', serif;
+}
+
+.indexbutton {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.homebody {
+	background-image: url(http://static1.squarespace.com/static/55b61873e4b076db679a16ff/55b629bee4b089e1161ea68c/55b668bfe4b0fca65722f856/1438017729040/photodune-3765973-gold-glitter-on-black-background-m.jpg?format=2500w);
+}
